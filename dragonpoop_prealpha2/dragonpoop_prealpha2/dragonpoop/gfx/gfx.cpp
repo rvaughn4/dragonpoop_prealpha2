@@ -8,7 +8,7 @@
 #include "gfx_ref.h"
 #include "../core/dpthread/dpthread_lock.h"
 #include "../core/dptaskpool/dptaskpool_writelock.h"
-#include "../renderer/renderer.h"
+#include "../renderer/renderers.h"
 #include "../core/shared_obj/shared_obj_guard.h"
 
 namespace dragonpoop
@@ -27,7 +27,7 @@ namespace dragonpoop
         tp->addTask( this->tsk );
 
         l = (gfx_writelock *)o.writeLock( this );
-        this->r = new renderer( c, l, tp );
+        this->r = new openglx_1o5_renderer( c, l, tp );
     }
 
     //dtor

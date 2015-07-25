@@ -1,15 +1,15 @@
-//
-//  main.cpp
-//  dragonpoop_prealpha2
-//
-//  Created by richard vaughn on 7/24/15.
-//  Copyright (c) 2015 dragonpoop. All rights reserved.
-//
 
-#include <iostream>
+#include "dragonpoop/dragonpoop.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main( int argc, const char * argv[] )
+{
+
+    dragonpoop::core *c = new dragonpoop::core();
+
+    while( c->isRunning() )
+        std::this_thread::sleep_for( std::chrono::milliseconds( 100 ) );
+
+    delete c;
+
     return 0;
 }

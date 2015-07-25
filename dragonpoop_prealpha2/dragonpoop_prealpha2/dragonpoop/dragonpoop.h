@@ -4,5 +4,6 @@
 
 #include "os_define.h"
 #include "core/cores.h"
+#include "gfx/gfxs.h"
 
 #endif

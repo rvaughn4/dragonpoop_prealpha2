@@ -27,6 +27,10 @@
 		79A7A2F91B63F5CE00BCB62E /* model_ref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A2F11B63F5CE00BCB62E /* model_ref.cpp */; };
 		79A7A2FA1B63F5CE00BCB62E /* model_writelock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A2F31B63F5CE00BCB62E /* model_writelock.cpp */; };
 		79A7A2FD1B6402A900BCB62E /* model_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A2FB1B6402A900BCB62E /* model_task.cpp */; };
+		79A7A3021B64280C00BCB62E /* model_vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A2FF1B64280C00BCB62E /* model_vertex.cpp */; };
+		79A7A3071B64351A00BCB62E /* model_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A3041B64351A00BCB62E /* model_triangle.cpp */; };
+		79A7A30C1B643B0500BCB62E /* model_triangle_vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A3091B643B0500BCB62E /* model_triangle_vertex.cpp */; };
+		79A7A3111B6447D300BCB62E /* model_group_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A30E1B6447D300BCB62E /* model_group_triangle.cpp */; };
 		79F856961B639989009A56FC /* bytetree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F856421B639989009A56FC /* bytetree.cpp */; };
 		79F856971B639989009A56FC /* dpid_bytetree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F856451B639989009A56FC /* dpid_bytetree.cpp */; };
 		79F856981B639989009A56FC /* dpid_multibytetree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F856471B639989009A56FC /* dpid_multibytetree.cpp */; };
@@ -140,6 +144,18 @@
 		79A7A2F51B63F5CE00BCB62E /* models.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = models.h; sourceTree = "<group>"; };
 		79A7A2FB1B6402A900BCB62E /* model_task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_task.cpp; sourceTree = "<group>"; };
 		79A7A2FC1B6402A900BCB62E /* model_task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_task.h; sourceTree = "<group>"; };
+		79A7A2FF1B64280C00BCB62E /* model_vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_vertex.cpp; sourceTree = "<group>"; };
+		79A7A3001B64280C00BCB62E /* model_vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_vertex.h; sourceTree = "<group>"; };
+		79A7A3011B64280C00BCB62E /* model_vertexes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_vertexes.h; sourceTree = "<group>"; };
+		79A7A3041B64351A00BCB62E /* model_triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_triangle.cpp; sourceTree = "<group>"; };
+		79A7A3051B64351A00BCB62E /* model_triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_triangle.h; sourceTree = "<group>"; };
+		79A7A3061B64351A00BCB62E /* model_triangles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_triangles.h; sourceTree = "<group>"; };
+		79A7A3091B643B0500BCB62E /* model_triangle_vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_triangle_vertex.cpp; sourceTree = "<group>"; };
+		79A7A30A1B643B0500BCB62E /* model_triangle_vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_triangle_vertex.h; sourceTree = "<group>"; };
+		79A7A30B1B643B0500BCB62E /* model_triangle_vertexes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_triangle_vertexes.h; sourceTree = "<group>"; };
+		79A7A30E1B6447D300BCB62E /* model_group_triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_group_triangle.cpp; sourceTree = "<group>"; };
+		79A7A30F1B6447D300BCB62E /* model_group_triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_group_triangle.h; sourceTree = "<group>"; };
+		79A7A3101B6447D300BCB62E /* model_group_triangles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_group_triangles.h; sourceTree = "<group>"; };
 		79F856421B639989009A56FC /* bytetree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bytetree.cpp; sourceTree = "<group>"; };
 		79F856431B639989009A56FC /* bytetree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytetree.h; sourceTree = "<group>"; };
 		79F856441B639989009A56FC /* bytetrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytetrees.h; sourceTree = "<group>"; };
@@ -348,6 +364,10 @@
 		79A7A2E71B63F5CE00BCB62E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				79A7A30D1B6447D300BCB62E /* model_group_triangle */,
+				79A7A3081B643B0500BCB62E /* model_triangle_vertex */,
+				79A7A3031B64351A00BCB62E /* model_triangle */,
+				79A7A2FE1B64280C00BCB62E /* model_vertex */,
 				79A7A2EA1B63F5CE00BCB62E /* model_component */,
 				79A7A2E81B63F5CE00BCB62E /* model.cpp */,
 				79A7A2E91B63F5CE00BCB62E /* model.h */,
@@ -373,6 +393,46 @@
 				79A7A2EE1B63F5CE00BCB62E /* model_components.h */,
 			);
 			path = model_component;
+			sourceTree = "<group>";
+		};
+		79A7A2FE1B64280C00BCB62E /* model_vertex */ = {
+			isa = PBXGroup;
+			children = (
+				79A7A2FF1B64280C00BCB62E /* model_vertex.cpp */,
+				79A7A3001B64280C00BCB62E /* model_vertex.h */,
+				79A7A3011B64280C00BCB62E /* model_vertexes.h */,
+			);
+			path = model_vertex;
+			sourceTree = "<group>";
+		};
+		79A7A3031B64351A00BCB62E /* model_triangle */ = {
+			isa = PBXGroup;
+			children = (
+				79A7A3041B64351A00BCB62E /* model_triangle.cpp */,
+				79A7A3051B64351A00BCB62E /* model_triangle.h */,
+				79A7A3061B64351A00BCB62E /* model_triangles.h */,
+			);
+			path = model_triangle;
+			sourceTree = "<group>";
+		};
+		79A7A3081B643B0500BCB62E /* model_triangle_vertex */ = {
+			isa = PBXGroup;
+			children = (
+				79A7A3091B643B0500BCB62E /* model_triangle_vertex.cpp */,
+				79A7A30A1B643B0500BCB62E /* model_triangle_vertex.h */,
+				79A7A30B1B643B0500BCB62E /* model_triangle_vertexes.h */,
+			);
+			path = model_triangle_vertex;
+			sourceTree = "<group>";
+		};
+		79A7A30D1B6447D300BCB62E /* model_group_triangle */ = {
+			isa = PBXGroup;
+			children = (
+				79A7A30E1B6447D300BCB62E /* model_group_triangle.cpp */,
+				79A7A30F1B6447D300BCB62E /* model_group_triangle.h */,
+				79A7A3101B6447D300BCB62E /* model_group_triangles.h */,
+			);
+			path = model_group_triangle;
 			sourceTree = "<group>";
 		};
 		79F8563F1B639989009A56FC /* dragonpoop */ = {
@@ -643,6 +703,7 @@
 				79F856D41B63A2CD009A56FC /* renderer_writelock.cpp in Sources */,
 				79F856AF1B639989009A56FC /* shared_obj_guard.cpp in Sources */,
 				79A7A2E21B63E93100BCB62E /* dpindex_buffer.cpp in Sources */,
+				79A7A30C1B643B0500BCB62E /* model_triangle_vertex.cpp in Sources */,
 				79A7A2E01B63E93100BCB62E /* dpbitmap_bitmap_loader.cpp in Sources */,
 				79F856A61B639989009A56FC /* dptask_writelock.cpp in Sources */,
 				79F856C31B63A2C4009A56FC /* gfx_readlock.cpp in Sources */,
@@ -668,6 +729,7 @@
 				79F856A91B639989009A56FC /* dptaskpool_ref.cpp in Sources */,
 				79A7A2FA1B63F5CE00BCB62E /* model_writelock.cpp in Sources */,
 				79A7A2E41B63E93100BCB62E /* dpvertex_buffer.cpp in Sources */,
+				79A7A3111B6447D300BCB62E /* model_group_triangle.cpp in Sources */,
 				79F856B41B639989009A56FC /* shared_obj_refkernal.cpp in Sources */,
 				79A7A2DF1B63E93100BCB62E /* dpbitmap.cpp in Sources */,
 				79F856C21B63A2C4009A56FC /* gfx.cpp in Sources */,
@@ -679,6 +741,7 @@
 				79A7A2E31B63E93100BCB62E /* dpvertex.cpp in Sources */,
 				79A7A2F61B63F5CE00BCB62E /* model.cpp in Sources */,
 				79F856D81B63A5BF009A56FC /* renderer_task.cpp in Sources */,
+				79A7A3021B64280C00BCB62E /* model_vertex.cpp in Sources */,
 				79F856A11B639989009A56FC /* dpsponlock.cpp in Sources */,
 				79F856B11B639989009A56FC /* shared_obj_lock.cpp in Sources */,
 				79F856981B639989009A56FC /* dpid_multibytetree.cpp in Sources */,
@@ -691,6 +754,7 @@
 				79A7A2FD1B6402A900BCB62E /* model_task.cpp in Sources */,
 				79F856B01B639989009A56FC /* shared_obj_interface.cpp in Sources */,
 				79F856AA1B639989009A56FC /* dptaskpool_writelock.cpp in Sources */,
+				79A7A3071B64351A00BCB62E /* model_triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,4 +8,9 @@
 #include "model_writelock.h"
 #include "model_task.h"
 
+#include "model_component/model_compoents.h"
+#include "model_vertex/model_vertexes.h"
+#include "model_triangle_vertex/model_triangle_vertexes.h"
+#include "model_triangle/model_triangles.h"
+
 #endif

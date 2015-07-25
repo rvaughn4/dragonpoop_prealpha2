@@ -10,6 +10,6 @@
 #include "dptaskpool/dptaskpools.h"
 #include "dpid/dpids.h"
 #include "core.h"
-#include "../gfx/gfxs.h"
+#include "bytetrees.h"
 
 #endif

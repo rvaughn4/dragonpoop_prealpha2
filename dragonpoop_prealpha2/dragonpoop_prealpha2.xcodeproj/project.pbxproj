@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792BE71D1B645ACF00E4140D /* model_group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 792BE71A1B645ACF00E4140D /* model_group.cpp */; };
 		7980930C1B632AFB00386578 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7980930B1B632AFB00386578 /* main.cpp */; };
 		79A7A2B91B63CCAD00BCB62E /* openglx_1o5_renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A2B01B63CCAD00BCB62E /* openglx_1o5_renderer.cpp */; };
 		79A7A2BA1B63CCAD00BCB62E /* openglx_1o5_renderer_readlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A2B21B63CCAD00BCB62E /* openglx_1o5_renderer_readlock.cpp */; };
@@ -88,6 +89,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		792BE71A1B645ACF00E4140D /* model_group.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_group.cpp; sourceTree = "<group>"; };
+		792BE71B1B645ACF00E4140D /* model_group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_group.h; sourceTree = "<group>"; };
+		792BE71C1B645ACF00E4140D /* model_groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_groups.h; sourceTree = "<group>"; };
 		798093081B632AFB00386578 /* dragonpoop_prealpha2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dragonpoop_prealpha2; sourceTree = BUILT_PRODUCTS_DIR; };
 		7980930B1B632AFB00386578 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		79A7A2B01B63CCAD00BCB62E /* openglx_1o5_renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = openglx_1o5_renderer.cpp; sourceTree = "<group>"; };
@@ -269,6 +273,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		792BE7191B645ACF00E4140D /* model_group */ = {
+			isa = PBXGroup;
+			children = (
+				792BE71A1B645ACF00E4140D /* model_group.cpp */,
+				792BE71B1B645ACF00E4140D /* model_group.h */,
+				792BE71C1B645ACF00E4140D /* model_groups.h */,
+			);
+			path = model_group;
+			sourceTree = "<group>";
+		};
 		798092FF1B632AFB00386578 = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +378,7 @@
 		79A7A2E71B63F5CE00BCB62E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				792BE7191B645ACF00E4140D /* model_group */,
 				79A7A30D1B6447D300BCB62E /* model_group_triangle */,
 				79A7A3081B643B0500BCB62E /* model_triangle_vertex */,
 				79A7A3031B64351A00BCB62E /* model_triangle */,
@@ -733,6 +748,7 @@
 				79F856B41B639989009A56FC /* shared_obj_refkernal.cpp in Sources */,
 				79A7A2DF1B63E93100BCB62E /* dpbitmap.cpp in Sources */,
 				79F856C21B63A2C4009A56FC /* gfx.cpp in Sources */,
+				792BE71D1B645ACF00E4140D /* model_group.cpp in Sources */,
 				79A7A2BC1B63CCAD00BCB62E /* openglx_1o5_renderer_writelock.cpp in Sources */,
 				79A7A2F71B63F5CE00BCB62E /* model_component.cpp in Sources */,
 				79F8569C1B639989009A56FC /* dpmutex.cpp in Sources */,
